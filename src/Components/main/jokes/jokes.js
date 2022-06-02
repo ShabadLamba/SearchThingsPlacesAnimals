@@ -8,7 +8,9 @@ const Jokes = () => {
   }, [jokes]);
 
   async function requestJokes() {
-    const res = await fetch(`official-joke-api.appspot.com/random_joke`);
+    const res = await fetch(
+      `https://official-joke-api.appspot.com/random_joke`
+    );
 
     const json = await res.json();
 
