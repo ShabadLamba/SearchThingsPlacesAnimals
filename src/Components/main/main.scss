@@ -1,0 +1,23 @@
+.body-main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.listCard {
+  width: 20vw;
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0.1px 0.1px 6px 0.1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
