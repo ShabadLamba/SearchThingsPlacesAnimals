@@ -10,7 +10,7 @@ const Universities = (props) => {
     if (props.searchValue.length > 0) {
       requestUniversities();
       async function requestUniversities() {
-        const res = await fetch(`/api/${props.searchValue}`);
+        const res = await fetch(`/api/search?country=${props.searchValue}`);
 
         const json = await res.json();
 
